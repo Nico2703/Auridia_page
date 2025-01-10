@@ -12,7 +12,7 @@ function App(){
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Layout/>}>
+                <Route path="/Auridia_page/" element={<Layout/>}>
                     <Route path="home" index element={<Home/>}/>  
                     <Route path="pasteleria" element={<Pasteleria/>}/>  
                     <Route path="confiteria" element={<Confiteria/>}/>                
