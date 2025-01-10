@@ -14,7 +14,7 @@ function Contacto(){
                 </div>
                 <button type="submit" className="btn"> Enviar </button>
             </form>
-            <img className="location" src="/assets/img/Location.jpeg" width="400px" height="500px" alt=""></img>
+            <img className="location" src={`${process.env.PUBLIC_URL}/assets/img/Location.jpeg`} width="400px" height="500px" alt=""></img>
         </main>
     )
 }
