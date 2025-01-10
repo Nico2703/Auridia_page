@@ -1,0 +1,23 @@
+import productos from '../data/productos.json';
+
+const productosPorCategoria = productos.filter(producto => producto.categoria === 'Confitería');
+
+function Confiteria(){
+    return(
+        <main>
+            <div className="cardProducts">
+                {productosPorCategoria.map((producto) => (
+                    <div className="card text-bg-dark">
+                        <img className="card-img" src={producto.imagen} alt={producto.nombre} />
+                        <div className="card-img-overlay">
+                            <h5 className="card-title">{producto.nombre}</h5>
+                            <p className="card-text">{producto.detalle}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </main>
+    )
+}
+
+export default Confiteria;

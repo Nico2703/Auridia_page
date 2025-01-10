@@ -1,0 +1,68 @@
+[
+    {
+        "nombre": "Producto 1",
+        "detalle": "Detalle",
+        "categoria": "Pastelería",
+        "imagen": "/assets/img/Producto (1).jpeg"
+    },
+    {
+        "nombre": "Producto 2",
+        "detalle": "Detalle",
+        "categoria": "Pastelería",
+        "imagen": "/assets/img/Producto (2).jpeg"
+    },
+    {
+        "nombre": "Producto 3",
+        "detalle": "Detalle",
+        "categoria": "Pastelería",
+        "imagen": "/assets/img/Producto (3).jpeg"
+    },
+    {
+        "nombre": "Producto 4",
+        "detalle": "Detalle",
+        "categoria": "Pastelería",
+        "imagen": "/assets/img/Producto (4).jpeg"
+    },
+    {
+        "nombre": "Producto 5",
+        "detalle": "Detalle",
+        "categoria": "Confitería",
+        "imagen": "/assets/img/Producto (5).jpeg"
+    },
+    {
+        "nombre": "Producto 6",
+        "detalle": "Detalle",
+        "categoria": "Confitería",
+        "imagen": "/assets/img/Producto (6).jpeg"
+    },
+    {
+        "nombre": "Producto 7",
+        "detalle": "Detalle",
+        "categoria": "Confitería",
+        "imagen": "/assets/img/Producto (7).jpeg"
+    },
+    {
+        "nombre": "Producto 8",
+        "detalle": "Detalle",
+        "categoria": "Confitería",
+        "imagen": "/assets/img/Producto (8).jpeg"
+    },
+    {
+        "nombre": "Producto 9",
+        "detalle": "Detalle",
+        "categoria": "Confitería",
+        "imagen": "/assets/img/Producto (9).jpeg"
+    },
+    {
+        "nombre": "Producto 10",
+        "detalle": "Detalle",
+        "categoria": "Pastelería",
+        "imagen": "/assets/img/Producto (10).jpeg"
+    },
+    {
+        "nombre": "Producto 11",
+        "detalle": "Detalle",
+        "categoria": "Pastelería",
+        "imagen": "/assets/img/Producto (11).jpeg"
+    }
+]
