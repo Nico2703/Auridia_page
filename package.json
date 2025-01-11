@@ -2,7 +2,7 @@
   "name": "auridia_page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nico2703.github.io/Auridia_page/home",
+  "homepage": "https://nico2703.github.io/Auridia_page",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
