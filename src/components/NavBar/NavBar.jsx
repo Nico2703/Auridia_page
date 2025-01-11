@@ -6,7 +6,7 @@ export const NavBar = () =>{
     <nav className="navbar navbar-expand-lg sticky-top">
         <div className="container-fluid">
             <div className="logo">
-                <Link to="/Auridia_page/home" className="navbar-brand mb-0 h1">
+                <Link to="Auridia_page" className="navbar-brand mb-0 h1">
                     <HomeWidget/>   
                 </Link>
             </div>

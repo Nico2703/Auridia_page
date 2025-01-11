@@ -12,12 +12,12 @@ function App(){
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/Auridia_page/" element={<Layout/>}>
-                    <Route path="home" index element={<Home/>}/>  
-                    <Route path="pasteleria" element={<Pasteleria/>}/>  
-                    <Route path="confiteria" element={<Confiteria/>}/>                
-                    <Route path="nosotros" element={<Nosotros/>}/>
-                    <Route path="contacto" element={<Contacto/>}/>
+                <Route path="/" element={<Layout/>}>
+                    <Route path="Auridia_page" index element={<Home/>}/>  
+                    <Route path="Auridia_page/pasteleria" element={<Pasteleria/>}/>  
+                    <Route path="Auridia_page/confiteria" element={<Confiteria/>}/>                
+                    <Route path="Auridia_page/nosotros" element={<Nosotros/>}/>
+                    <Route path="Auridia_page/contacto" element={<Contacto/>}/>
                     <Route path="*" element={<Error/>}/>
                 </Route>
             </Routes>
