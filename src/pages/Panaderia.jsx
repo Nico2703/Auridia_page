@@ -1,8 +1,8 @@
 import productos from '../data/productos.json';
 
-const productosPorCategoria = productos.filter(producto => producto.categoria === 'Confitería');
+const productosPorCategoria = productos.filter(producto => producto.categoria === 'Panadería');
 
-function Confiteria(){
+function Panaderia(){
     return(
         <main>
             <div className="cardProducts">
@@ -20,4 +20,4 @@ function Confiteria(){
     )
 }
 
-export default Confiteria;
+export default Panaderia;

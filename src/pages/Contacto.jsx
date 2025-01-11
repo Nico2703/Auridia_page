@@ -3,6 +3,9 @@ function Contacto(){
     return(
         <main>
             <form>
+                <p> Encontranos en Molinari, Cosquín. Santiago 94, a metros de la Ruta 38 -
+                    Martes a Domingos 8:30 a 12:30 hs y 17:00 a 21:00 hs </p>
+                <p> Para consultas o pedidos comunicate por cualquiera de nuestras redes o completa el formulario </p>
                 <div className="mb-3">
                     <label htmlFor="inputMail" className="form-label"> Dirección e-mail </label>
                     <input type="email" className="form-control" id="inputMailM" aria-describedby="emailHelp" required/>

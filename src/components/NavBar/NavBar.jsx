@@ -12,18 +12,18 @@ export const NavBar = () =>{
             </div>
             <div className="collapse navbar-collapse" id="navbarText">
                 <img src={`${process.env.PUBLIC_URL}/assets/img/Lugar (1).jpeg`} width="160" height="140" alt=""></img>
-                <img src={`${process.env.PUBLIC_URL}/assets/img/Producto (3).jpeg`} width="160" height="140" alt=""></img>
                 <img src={`${process.env.PUBLIC_URL}/assets/img/Producto (4).jpeg`} width="160" height="140" alt=""></img>
-                <img className="imgNav" src={`${process.env.PUBLIC_URL}/assets/img/Producto (11).jpeg`}  width="160" height="140" alt=""></img>
+                <img src={`${process.env.PUBLIC_URL}/assets/img/Lugar (2).jpeg`} width="160" height="140" alt=""></img>
+                <img className="imgNav" src={`${process.env.PUBLIC_URL}/assets/img/Producto (13).jpeg`}  width="160" height="140" alt=""></img>
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li id="primerItem" className="nav-item">
-                        <Link to="/Auridia_page/pasteleria" className="nav-link">
-                            Pasteleria
+                        <Link to="/Auridia_page/panaderia" className="nav-link">
+                            Panadería
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/Auridia_page/confiteria" className="nav-link">
-                            Confitería
+                        <Link to="/Auridia_page/pasteleriaconfiteria" className="nav-link">
+                            Pastelería/Confitería
                         </Link>
                     </li>
                     <li className="nav-item">

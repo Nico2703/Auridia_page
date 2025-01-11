@@ -1,68 +1,116 @@
 [
     {
-        "nombre": "Producto 1",
-        "detalle": "Detalle",
-        "categoria": "Pastelería",
+        "nombre": "Variedad en Alfajores",
+        "detalle": "Marplatense - Block - Frambuesa - Nuez - Maicena - Cordobés - Brownie - Maní",
+        "categoria": "PasteleríaConfitería",
         "imagen": "assets/img/Producto (1).jpeg"
     },
     {
-        "nombre": "Producto 2",
-        "detalle": "Detalle",
-        "categoria": "Pastelería",
+        "nombre": "Especial fin de semana",
+        "detalle": "Medialuna - Medialuna XL - Croissant",
+        "categoria": "Panadería",
         "imagen": "assets/img/Producto (2).jpeg"
     },
     {
-        "nombre": "Producto 3",
-        "detalle": "Detalle",
-        "categoria": "Pastelería",
+        "nombre": "Desayunos y Meriendas",
+        "detalle": "Tostadas - Auridia - Campo - Saludable",
+        "categoria": "PasteleríaConfitería",
         "imagen": "assets/img/Producto (3).jpeg"
     },
     {
         "nombre": "Producto 4",
         "detalle": "Detalle",
-        "categoria": "Pastelería",
+        "categoria": "",
         "imagen": "assets/img/Producto (4).jpeg"
     },
     {
         "nombre": "Producto 5",
         "detalle": "Detalle",
-        "categoria": "Confitería",
+        "categoria": "",
         "imagen": "assets/img/Producto (5).jpeg"
     },
     {
-        "nombre": "Producto 6",
-        "detalle": "Detalle",
-        "categoria": "Confitería",
+        "nombre": "Focaccia Veggie",
+        "detalle": "Berenjena asada - Tomate - Rúcula - Hummus de garbanzo",
+        "categoria": "Panadería",
         "imagen": "assets/img/Producto (6).jpeg"
     },
     {
-        "nombre": "Producto 7",
-        "detalle": "Detalle",
-        "categoria": "Confitería",
+        "nombre": "Scon de Queso",
+        "detalle": "Pesto de albahaca - Jamón cocido - Huevo - Queso - Rúcula - Tomates asados",
+        "categoria": "Panadería",
         "imagen": "assets/img/Producto (7).jpeg"
     },
     {
-        "nombre": "Producto 8",
-        "detalle": "Detalle",
-        "categoria": "Confitería",
+        "nombre": "Ciabatta",
+        "detalle": "Bondiola - Queso - Rúcula - Pimientos en aceite - Cebolla caramelizada - Aderezo de queso crema y ciboulette",
+        "categoria": "Panadería",
         "imagen": "assets/img/Producto (8).jpeg"
     },
     {
         "nombre": "Producto 9",
         "detalle": "Detalle",
-        "categoria": "Confitería",
+        "categoria": "",
         "imagen": "assets/img/Producto (9).jpeg"
     },
     {
-        "nombre": "Producto 10",
-        "detalle": "Detalle",
-        "categoria": "Pastelería",
+        "nombre": "Especial fin de semana / Croissant Mafalda",
+        "detalle": "Jamón crudo - Queso - Tomates cherry",
+        "categoria": "Panadería",
         "imagen": "assets/img/Producto (10).jpeg"
     },
     {
-        "nombre": "Producto 11",
-        "detalle": "Detalle",
-        "categoria": "Pastelería",
+        "nombre": "Bagel",
+        "detalle": "Lomo ahumado - Queso - Huevo revuelto - Aderezo de queso crema y ciboulette",
+        "categoria": "Panadería",
         "imagen": "assets/img/Producto (11).jpeg"
+    },
+    {
+        "nombre": "Producto 12",
+        "detalle": "Detalle",
+        "categoria": "",
+        "imagen": "assets/img/Producto (12).jpeg"
+    },
+    {
+        "nombre": "Producto 13",
+        "detalle": "Detalle",
+        "categoria": "",
+        "imagen": "assets/img/Producto (13).jpeg"
+    },
+    {
+        "nombre": "Carrot Cake",
+        "detalle": "Bizcocho de zanahoria y canela - Nuez moscada, naranja y jengibre - Frosting de queso y chocolate blanco",
+        "categoria": "PasteleríaConfitería",
+        "imagen": "assets/img/Producto (14).jpeg"
+    },
+    {
+        "nombre": "Cheescake",
+        "detalle": "Frutos rojos - Maracuyá - Chocolate y naranja - Pistachos y Frambuesa",
+        "categoria": "PasteleríaConfitería",
+        "imagen": "assets/img/Producto (15).jpeg"
+    },
+    {
+        "nombre": "Tartas",
+        "detalle": "Key Lime Pie - Maracuyá Pie - Manzana con crumble de nueces - Lemon Pie - Ricotta - Ricotta con Frutos Rojos",
+        "categoria": "PasteleríaConfitería",
+        "imagen": "assets/img/Producto (16).jpeg"
+    },
+    {
+        "nombre": "Tostón Palta",
+        "detalle": "Pan de Campo - Huevo revuelto - Palta - Tomates asados",
+        "categoria": "Panadería",
+        "imagen": "assets/img/Producto (17).jpeg"
+    },
+    {
+        "nombre": "Producto 18",
+        "detalle": "Detalle",
+        "categoria": "",
+        "imagen": "assets/img/Producto (18).jpeg"
+    },
+    {
+        "nombre": "Producto 19",
+        "detalle": "Detalle",
+        "categoria": "",
+        "imagen": "assets/img/Producto (19).jpeg"
     }
 ]
