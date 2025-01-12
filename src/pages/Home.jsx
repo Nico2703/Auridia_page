@@ -10,7 +10,7 @@ function Home(){
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h5 className="card-title">Panadería</h5>
-                                <p className="card-text">Productos fresos y elaborados en el momento
+                                <p className="card-text">Productos frescos y elaborados en el momento
                                     <br></br>Panes y scones de elaboración propia
                                     <br></br>Acompañalos con nuestra variedad de Jugos y Licuados
                                 </p>
@@ -27,7 +27,7 @@ function Home(){
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h5 className="card-title">Pastelería y confitería</h5>
-                                <p className="card-text">Productos fresos y elaborados en el momento
+                                <p className="card-text">Productos frescos y elaborados en el momento
                                 <br></br>Variedad en Tortas, Tartas, Brownies y Alfajores
                                 <br></br>Acompañalos con nuestros Blends de Tés o Cafés Expressos
                                 <br></br>Combos Desayunos y Meriendas

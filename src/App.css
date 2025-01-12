@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red;  */
+    /* border: 1px solid red;   */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Parisienne:wght@400;700&display=swap');
@@ -47,7 +47,7 @@
 .nav-link:hover{
     color: #FFD700;
 }
-.imgNav{
+.imgNav4{
     border-right: 5px solid #753B19;
 }
 
@@ -230,4 +230,95 @@ form{
     background-color: #EAC5BD;
     border-radius: 3%;
     width: 60%;
+}
+
+
+
+/* Responsive */
+@media (max-width: 1496px) {
+    .nav-link{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 1460px) {
+    .nav-link{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1420px) {
+    .imgNav1{
+        display: none;
+    }
+}
+
+@media (max-width: 1260px) {
+    .imgNav2{
+        display: none;
+    }
+    .cardHome1{
+        margin-left: 20px;
+        margin-right: 320px;
+    }
+    .cardHome2{
+        margin-left: 180px;
+        margin-right: 220px;
+    }
+    .cardHome3{
+        margin-left: 340px;
+        margin-right: 120px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .imgNav3{
+        display: none;
+    }
+    .cardHome1{
+        margin-left: 0px;
+        margin-right: 340px;
+    
+    }
+    .cardHome2{
+        margin-left: 120px;
+        margin-right: 280px;
+        
+    }
+    .cardHome3{
+        margin-left: 280px;
+        margin-right: 180px;
+    }
+}
+
+@media (max-width: 990px) {
+    .imgNav4{
+        display: none;
+    }
+    #primerItem{
+        margin: 0px 5px;
+        padding: 0;
+    }
+    .navbar-nav {
+        margin-top: 0;  
+    }
+    .cardHome1{
+        margin: 0;
+    }
+    .cardHome2{
+        margin: 0;
+    }
+    .cardHome3{
+        margin: 0;
+    }
+    .displayHome{
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-fluid{
+        border-bottom: solid 5px #753B19;
+        text-align: center;
+    }
 }
