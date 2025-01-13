@@ -9,7 +9,7 @@ function Home(){
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
-                                <h5 className="card-title">Panadería</h5>
+                                <h6 className="card-title">Panadería</h6>
                                 <p className="card-text">Productos frescos y elaborados en el momento
                                     <br></br>Panes y scones de elaboración propia
                                     <br></br>Acompañalos con nuestra variedad de Jugos y Licuados
@@ -26,7 +26,7 @@ function Home(){
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
-                                <h5 className="card-title">Pastelería y confitería</h5>
+                                <h6 className="card-title">Pastelería y confitería</h6>
                                 <p className="card-text">Productos frescos y elaborados en el momento
                                 <br></br>Variedad en Tortas, Tartas, Brownies y Alfajores
                                 <br></br>Acompañalos con nuestros Blends de Tés o Cafés Expressos
@@ -44,7 +44,7 @@ function Home(){
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
-                                <h5 className="card-title">Pastelería personalizada</h5>
+                                <h6 className="card-title">Pastelería personalizada</h6>
                                 <p className="card-text">Tortas personalizadas / Casamientos - Cumpleaños - Eventos </p>
                                 <p className="card-text"><small class="text-body-secondary">Más en <br></br> 
                                     <a href="https://www.instagram.com/alexanderiacobpasteleria/">https://www.instagram.com/alexanderiacobpasteleria/</a>

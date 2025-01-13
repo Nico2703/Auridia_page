@@ -3,7 +3,7 @@ function Nosotros(){
     return(
         <main>
             <div className="nosotros"> 
-                <img className="location" src={`${process.env.PUBLIC_URL}/assets/img/Lugar (3).jpeg`} width="400px" height="500px" alt=""></img>
+                <img className="location2" src={`${process.env.PUBLIC_URL}/assets/img/Lugar (3).jpeg`} width="400px" height="500px" alt=""></img>
                 <div className="textoNosotros">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium odit repellendus illo, 
                     quidem fugiat officia reiciendis ratione aliquam cumque velit dicta amet numquam magni in totam 

@@ -9,11 +9,11 @@ export const NavBar = () =>{
                 <Link to="Auridia_page" className="navbar-brand mb-0 h1">
                     <HomeWidget/>   
                 </Link>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
             </div>
 
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
             
             <div className="collapse navbar-collapse" id="navbarText">
                 <img className="imgNav1" src={`${process.env.PUBLIC_URL}/assets/img/Lugar (1).jpeg`} width="160" height="140" alt=""></img>

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red;   */
+    /* border: 1px solid red;    */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Parisienne:wght@400;700&display=swap');
@@ -110,6 +110,11 @@ form{
     font-weight: 300;
     font-style: normal;
     color: #535A53;
+}
+.location2{
+    border-radius: 15%;
+    border: 4px solid #753B19;
+    margin-top: 40px;
 }
 
 
@@ -289,6 +294,12 @@ form{
         margin-left: 280px;
         margin-right: 180px;
     }
+    .cardProducts{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .displayHome{
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 990px) {
@@ -314,11 +325,91 @@ form{
     .displayHome{
         align-items: center;
     }
+    .logo{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar-toggler{
+        margin: 50px 0px;
+        border: 4px solid #753B19;
+    }
 }
 
 @media (max-width: 768px) {
     .img-fluid{
         border-bottom: solid 5px #753B19;
         text-align: center;
+    }
+    .cardProducts{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10px;
+    }
+    .displayHome{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 426px) {
+    .sticky-links a {
+        margin: 10px 10px;
+        font-size: 15px;
+    }
+    #navbarText{
+        background-position: 0% -50%; 
+    }
+    form{
+        margin: 40px 60px;
+        font-size: small;
+    }
+    .location{
+        width: 50%;
+        height: 50%;
+    }
+    .textoFooter{
+        font-size: 12px;
+    }
+    .location2{
+        width: 40%;
+        height: 40%;
+    }
+    .textoNosotros{
+        margin: 40px 25px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 376px) {
+    #navbarText{
+        background-position: 0% -85%; 
+    }
+    form{
+        margin: 40px 20px;
+        font-size: smaller;
+    }
+    .location{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media (max-width: 321px) {
+    #navbarText{
+        background-position: 0% -170%; 
+    }
+    .textoFooter{
+        font-size: 10px;
+    }
+    .location2{
+        width: 60%;
+        height: 40%;
+    }
+    .textoNosotros{
+        margin: 40px 15px;
+        font-size: 8px;
+    }
+    .displayHome{
+        font-size: 8px;
     }
 }
