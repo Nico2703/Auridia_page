@@ -351,6 +351,15 @@ form{
     }
 }
 
+@media (max-width: 500px){
+    .card-title{
+        font-size: 20px;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 426px) {
     .sticky-links a {
         margin: 10px 10px;
@@ -382,7 +391,7 @@ form{
 
 @media (max-width: 376px) {
     #navbarText{
-        background-position: 0% -85%; 
+        background-position: 0% -125%; 
     }
     form{
         margin: 40px 20px;
@@ -392,11 +401,17 @@ form{
         width: 50%;
         height: 50%;
     }
+    .card-title{
+        font-size: 18px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 321px) {
     #navbarText{
-        background-position: 0% -170%; 
+        background-position: 0% -200%; 
     }
     .textoFooter{
         font-size: 10px;
@@ -411,5 +426,17 @@ form{
     }
     .displayHome{
         font-size: 8px;
+    }
+    .card-title{
+        font-size: 14px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 300px) {
+    #navbarText{
+        background-position: 0% -280%; 
     }
 }
