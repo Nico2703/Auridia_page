@@ -349,6 +349,9 @@ form{
     .displayHome{
         font-size: 10px;
     }
+    #navbarText{
+        background-position: 0% -50%; 
+    }
 }
 
 @media (max-width: 500px){
@@ -364,9 +367,6 @@ form{
     .sticky-links a {
         margin: 10px 10px;
         font-size: 15px;
-    }
-    #navbarText{
-        background-position: 0% -50%; 
     }
     form{
         margin: 40px 60px;
@@ -387,12 +387,12 @@ form{
         margin: 40px 25px;
         font-size: 10px;
     }
+    #navbarText{
+        background-position: 0% -100%; 
+    }
 }
 
 @media (max-width: 376px) {
-    #navbarText{
-        background-position: 0% -125%; 
-    }
     form{
         margin: 40px 20px;
         font-size: smaller;
@@ -407,12 +407,12 @@ form{
     .card-text{
         font-size: 10px;
     }
+    #navbarText{
+        background-position: 0% -250%; 
+    }
 }
 
 @media (max-width: 321px) {
-    #navbarText{
-        background-position: 0% -200%; 
-    }
     .textoFooter{
         font-size: 10px;
     }
@@ -428,7 +428,7 @@ form{
         font-size: 8px;
     }
     .card-title{
-        font-size: 14px;
+        font-size: 12px;
     }
     .card-text{
         font-size: 10px;
@@ -437,6 +437,6 @@ form{
 
 @media (max-width: 300px) {
     #navbarText{
-        background-position: 0% -280%; 
+        background-position: 0% -400%; 
     }
 }
