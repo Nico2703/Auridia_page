@@ -396,6 +396,12 @@ form{
     #navbarText{
         background-position: 0% -100%; 
     }
+    .card-title{
+        font-size: 18px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 376px) {
@@ -404,14 +410,20 @@ form{
         font-size: smaller;
         width: 80%;
     }
+    #navbarText{
+        background-position: 0% -250%; 
+    }
+    .cardProducts{
+        grid-gap: 0px;
+    }
+}
+
+@media (max-width: 340px){
     .card-title{
-        font-size: 18px;
+        font-size: 12px;
     }
     .card-text{
         font-size: 10px;
-    }
-    #navbarText{
-        background-position: 0% -250%; 
     }
 }
 
@@ -429,12 +441,6 @@ form{
     }
     .displayHome{
         font-size: 8px;
-    }
-    .card-title{
-        font-size: 12px;
-    }
-    .card-text{
-        font-size: 10px;
     }
 }
 
