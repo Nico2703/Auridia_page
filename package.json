@@ -5,6 +5,7 @@
   "homepage": "https://nico2703.github.io/Auridia_page",
   "dependencies": {
     "cra-template": "1.2.0",
+    "emailjs-com": "^3.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.1",

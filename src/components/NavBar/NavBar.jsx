@@ -10,7 +10,7 @@ export const NavBar = () =>{
                     <HomeWidget/>   
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars"></i>
+                    <i className="fa fa-bars"></i>
                 </button>
             </div>
 
