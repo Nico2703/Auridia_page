@@ -13,11 +13,11 @@ function App(){
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Layout/>}>
-                    <Route path="Auridia_page" index element={<Home/>}/>  
-                    <Route path="Auridia_page/panaderia" element={<Panaderia/>}/>  
-                    <Route path="Auridia_page/pasteleriaconfiteria" element={<PasteleriaConfiteria/>}/>                
-                    <Route path="Auridia_page/nosotros" element={<Nosotros/>}/>
-                    <Route path="Auridia_page/contacto" element={<Contacto/>}/>
+                    <Route index element={<Home/>}/>  
+                    <Route path="panaderia" element={<Panaderia/>}/>  
+                    <Route path="pasteleriaconfiteria" element={<PasteleriaConfiteria/>}/>                
+                    <Route path="nosotros" element={<Nosotros/>}/>
+                    <Route path="contacto" element={<Contacto/>}/>
                     <Route path="*" element={<Error/>}/>
                 </Route>
             </Routes>
