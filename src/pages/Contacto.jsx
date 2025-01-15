@@ -43,7 +43,7 @@ function Contacto() {
                 </form>
 
                 <iframe className="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.541954715702!2d-64.46523239999999!3d-31.196987300000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d7b5287227b8b%3A0x6276d06b060dc6d7!2sAURIDIA%20Pasteler%C3%ADa%20y%20Cafeter%C3%ADa!5e1!3m2!1ses-419!2sar!4v1736869605315!5m2!1ses-419!2sar" 
-                    title="Location" width="500" height="500" loading="lazy" 
+                    title="Location" loading="lazy" 
                     referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </main>
